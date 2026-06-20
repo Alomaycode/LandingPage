@@ -30,7 +30,7 @@ jobs:
           node-version: 20
 
       - name: Installer les dépendances
-        run: npm install
+        run: npm ci
 
       - name: Construire l'application
         run: npm run build
